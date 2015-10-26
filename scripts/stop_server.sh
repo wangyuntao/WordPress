@@ -3,7 +3,7 @@ isExistApp=`pgrep apache2`
 if [[ -n  \$isExistApp ]]; then
    service apache2 stop
 fi
-isExistApp=`pgrep mysqld`
+isExistApp=`pgrep mysql`
 if [[ -n  \$isExistApp ]]; then
-    service mysqld stop
+    service mysql stop
 fi
