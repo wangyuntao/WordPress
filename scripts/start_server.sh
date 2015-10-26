@@ -1,3 +1,3 @@
 #!/bin/bash
-service apache2 start
-service mysql start
+service httpd start
+service mysqld start

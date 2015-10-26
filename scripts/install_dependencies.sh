@@ -1,2 +1,3 @@
-sudo apt-get update
-sudo apt-get install -y lamp-server^
+#!/bin/bash
+yum groupinstall -y "Web Server" "MySQL Database" "PHP Support"
+yum install -y php-mysql
