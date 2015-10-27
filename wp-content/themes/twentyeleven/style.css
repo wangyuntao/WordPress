@@ -31,7 +31,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
-	background-color: green;
 }
 :focus {/* remember to define focus styles! */
 	outline: 0;
